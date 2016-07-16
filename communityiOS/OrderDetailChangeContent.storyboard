@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Order Detail Change Content View Controller-->
+        <scene sceneID="fUm-p6-rH0">
+            <objects>
+                <viewController storyboardIdentifier="order_detail_change_content" id="clC-k4-Tob" customClass="OrderDetailChangeContentViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QKC-5p-Rz4"/>
+                        <viewControllerLayoutGuide type="bottom" id="42L-33-q3p"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bi5-G9-rbM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="79s-bZ-vJp">
+                                <rect key="frame" x="0.0" y="-30" width="375" height="697"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="clC-k4-Tob" id="LqL-D2-oTh"/>
+                                    <outlet property="delegate" destination="clC-k4-Tob" id="45D-8K-QZn"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="79s-bZ-vJp" firstAttribute="top" secondItem="QKC-5p-Rz4" secondAttribute="bottom" constant="-50" id="5hl-uF-unh"/>
+                            <constraint firstAttribute="trailing" secondItem="79s-bZ-vJp" secondAttribute="trailing" id="9Wg-2f-ZH5"/>
+                            <constraint firstItem="42L-33-q3p" firstAttribute="top" secondItem="79s-bZ-vJp" secondAttribute="bottom" id="Bfj-KU-IeX"/>
+                            <constraint firstItem="79s-bZ-vJp" firstAttribute="leading" secondItem="Bi5-G9-rbM" secondAttribute="leading" id="zLJ-zB-yAL"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="OrderDetailChangeContentTableView" destination="79s-bZ-vJp" id="NVX-v1-jfS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aMN-8R-KLN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="270" y="305"/>
+        </scene>
+    </scenes>
+</document>
