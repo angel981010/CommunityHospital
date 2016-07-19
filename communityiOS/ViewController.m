@@ -36,7 +36,8 @@
 #import "AppDelegate.h"
 #import "ShoppingCartViewController.h"
 #import "ViewController4Dinner.h"
-#import "HospitalHomeViewController.h"
+//#import "HospitalHomeViewController.h"
+#import "orderViewController.h"
 
 
 
@@ -733,7 +734,9 @@ bool alreadyGetAddress = NO;
         cell =[[[NSBundle mainBundle] loadNibNamed:@"ForumTableViewCell" owner:self options:nil] objectAtIndex:0];
     }
     forumItem *item = [_listForumItem objectAtIndex:indexPath.row];
+    
     [cell setForumName:item.forum_name];
+    
     
     NSString *main_img_url = [NSString stringWithFormat:@"%@/topicpic/%@",API_HOST,item.image_url];//字符串拼接
     [cell setForumIconImage:main_img_url];
@@ -778,11 +781,18 @@ bool alreadyGetAddress = NO;
             MainTableViewHeaderCell
             *cell =[[[NSBundle mainBundle] loadNibNamed:@"MainTableViewHeaderCell" owner:self options:nil] objectAtIndex:0];
             cell.frame = CGRectMake(w/iconsCountPerPage*i, 0, w/iconsCountPerPage, h);
-            cell.forumNameLabel.text = row.forum_name;
+            if([row.forum_name isEqualToString:@"教务报修"]){
+                cell.forumNameLabel.text = @"社区医院";
+                cell.forumIconURLStr = @"社区医院";
+            }
+            else{
+                cell.forumNameLabel.text = row.forum_name;
+                //设置版块主图URL
+                NSString *main_img_url = [NSString stringWithFormat:@"%@/topicpic/%@",API_HOST,row.image_url];//字符串拼接
+                cell.forumIconURLStr = main_img_url;
+            }
             
-            //设置版块主图URL
-            NSString *main_img_url = [NSString stringWithFormat:@"%@/topicpic/%@",API_HOST,row.image_url];//字符串拼接
-            cell.forumIconURLStr = main_img_url;
+            
             
             [scrollView addSubview:cell];
             
@@ -824,7 +834,7 @@ bool alreadyGetAddress = NO;
         [self.navigationController pushViewController:VC4D animated:YES];
     }
     else if ([f.forum_name containsString:@"教务报修"]){
-        HospitalHomeViewController *hosVC = [[HospitalHomeViewController alloc]init];
+        orderViewController *hosVC = [[orderViewController alloc]init];
         [self.navigationController pushViewController:hosVC animated:YES];
     }
     else{

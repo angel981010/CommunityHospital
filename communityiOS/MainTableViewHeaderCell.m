@@ -22,9 +22,15 @@
 }
 
 -(void)setForumIconURLStr:(NSString *)forumIconURLStr{
-    [self.forumIconImageView sd_setImageWithURL:[NSURL URLWithString:[forumIconURLStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] placeholderImage:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
-        self.forumIconImageView.image = image;
-    }];
+    if ([forumIconURLStr isEqualToString:@"社区医院"]) {
+        self.forumIconImageView.image = [UIImage imageNamed:@"社区医院"];
+    }
+    else{
+        [self.forumIconImageView sd_setImageWithURL:[NSURL URLWithString:[forumIconURLStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] placeholderImage:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+            self.forumIconImageView.image = image;
+        }];
+    }
+    
 
 }
 @end

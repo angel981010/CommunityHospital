@@ -244,6 +244,9 @@
 		A0D401FB1B213FCC0033F45D /* getSMSCodeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D401FA1B213FCC0033F45D /* getSMSCodeItem.m */; };
 		A0D401FE1B2186440033F45D /* FindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D401FD1B2186440033F45D /* FindPasswordViewController.m */; };
 		A0D402011B2192A80033F45D /* findPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D402001B2192A80033F45D /* findPassword.m */; };
+		A0D8F7E61D3B858700FDD3B1 /* medicineDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D8F7E41D3B858700FDD3B1 /* medicineDetailTableViewCell.m */; };
+		A0D8F7EC1D3B962800FDD3B1 /* SZYDatePickView.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D8F7EB1D3B962800FDD3B1 /* SZYDatePickView.m */; };
+		A0D8F7F21D3BA62B00FDD3B1 /* UIView+Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D8F7F11D3BA62B00FDD3B1 /* UIView+Corner.m */; };
 		A0DD190F1ABB1BF300E34E8C /* PostListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DD190E1ABB1BF300E34E8C /* PostListViewController.m */; };
 		A0DD19131ABB1E8F00E34E8C /* PostTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0DD19111ABB1E8F00E34E8C /* PostTableViewCell.m */; };
 		A0DD19141ABB1E8F00E34E8C /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0DD19121ABB1E8F00E34E8C /* PostTableViewCell.xib */; };
@@ -264,7 +267,10 @@
 		A0EA07DE1C0DCD9D00632CD0 /* openssl_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA07D41C0DCD9D00632CD0 /* openssl_wrapper.m */; };
 		A0EA07DF1C0DCD9D00632CD0 /* RSADataSigner.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA07D61C0DCD9D00632CD0 /* RSADataSigner.m */; };
 		A0EA07E01C0DCD9D00632CD0 /* RSADataVerifier.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA07D81C0DCD9D00632CD0 /* RSADataVerifier.m */; };
-		A0EF04FA1D38DBF5005A88B5 /* HospitalHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF04F91D38DBF5005A88B5 /* HospitalHomeViewController.m */; };
+		A0EF05051D39E91C005A88B5 /* nurseBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF05021D39E91C005A88B5 /* nurseBookTableViewCell.m */; };
+		A0EF050B1D39E927005A88B5 /* orderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF05081D39E927005A88B5 /* orderViewController.m */; };
+		A0EF050C1D39E927005A88B5 /* bookContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF050A1D39E927005A88B5 /* bookContentViewController.m */; };
+		A0EF050F1D3A1365005A88B5 /* AppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EF050E1D3A1365005A88B5 /* AppointmentViewController.m */; };
 		A0FC96D81C1E68E20051C9A7 /* ShopIntroduceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC96D71C1E68E20051C9A7 /* ShopIntroduceViewController.m */; };
 		A0FC96DA1C1E69020051C9A7 /* ShopIntroduce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0FC96D91C1E69020051C9A7 /* ShopIntroduce.storyboard */; };
 		A0FC96DE1C1E70450051C9A7 /* ShopIntroMainImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0FC96DC1C1E70450051C9A7 /* ShopIntroMainImageTableViewCell.m */; };
@@ -699,6 +705,12 @@
 		A0D401FD1B2186440033F45D /* FindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindPasswordViewController.m; sourceTree = "<group>"; };
 		A0D401FF1B2192A80033F45D /* findPassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = findPassword.h; sourceTree = "<group>"; };
 		A0D402001B2192A80033F45D /* findPassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = findPassword.m; sourceTree = "<group>"; };
+		A0D8F7E41D3B858700FDD3B1 /* medicineDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = medicineDetailTableViewCell.m; sourceTree = "<group>"; };
+		A0D8F7E51D3B858700FDD3B1 /* medicineDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = medicineDetailTableViewCell.h; sourceTree = "<group>"; };
+		A0D8F7EA1D3B962800FDD3B1 /* SZYDatePickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZYDatePickView.h; sourceTree = "<group>"; };
+		A0D8F7EB1D3B962800FDD3B1 /* SZYDatePickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZYDatePickView.m; sourceTree = "<group>"; };
+		A0D8F7F01D3BA62B00FDD3B1 /* UIView+Corner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Corner.h"; sourceTree = "<group>"; };
+		A0D8F7F11D3BA62B00FDD3B1 /* UIView+Corner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Corner.m"; sourceTree = "<group>"; };
 		A0DD190D1ABB1BF300E34E8C /* PostListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostListViewController.h; sourceTree = "<group>"; };
 		A0DD190E1ABB1BF300E34E8C /* PostListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 5; lastKnownFileType = sourcecode.c.objc; path = PostListViewController.m; sourceTree = "<group>"; };
 		A0DD19101ABB1E8F00E34E8C /* PostTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTableViewCell.h; sourceTree = "<group>"; };
@@ -806,8 +818,14 @@
 		A0EA07D61C0DCD9D00632CD0 /* RSADataSigner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataSigner.m; sourceTree = "<group>"; };
 		A0EA07D71C0DCD9D00632CD0 /* RSADataVerifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSADataVerifier.h; sourceTree = "<group>"; };
 		A0EA07D81C0DCD9D00632CD0 /* RSADataVerifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSADataVerifier.m; sourceTree = "<group>"; };
-		A0EF04F81D38DBF5005A88B5 /* HospitalHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalHomeViewController.h; sourceTree = "<group>"; };
-		A0EF04F91D38DBF5005A88B5 /* HospitalHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalHomeViewController.m; sourceTree = "<group>"; };
+		A0EF05011D39E91C005A88B5 /* nurseBookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nurseBookTableViewCell.h; sourceTree = "<group>"; };
+		A0EF05021D39E91C005A88B5 /* nurseBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nurseBookTableViewCell.m; sourceTree = "<group>"; };
+		A0EF05071D39E927005A88B5 /* orderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = orderViewController.h; sourceTree = "<group>"; };
+		A0EF05081D39E927005A88B5 /* orderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = orderViewController.m; sourceTree = "<group>"; };
+		A0EF05091D39E927005A88B5 /* bookContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookContentViewController.h; sourceTree = "<group>"; };
+		A0EF050A1D39E927005A88B5 /* bookContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookContentViewController.m; sourceTree = "<group>"; };
+		A0EF050D1D3A1365005A88B5 /* AppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppointmentViewController.h; sourceTree = "<group>"; };
+		A0EF050E1D3A1365005A88B5 /* AppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppointmentViewController.m; sourceTree = "<group>"; };
 		A0FC96D61C1E68E20051C9A7 /* ShopIntroduceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopIntroduceViewController.h; sourceTree = "<group>"; };
 		A0FC96D71C1E68E20051C9A7 /* ShopIntroduceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopIntroduceViewController.m; sourceTree = "<group>"; };
 		A0FC96D91C1E69020051C9A7 /* ShopIntroduce.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShopIntroduce.storyboard; sourceTree = "<group>"; };
@@ -1798,10 +1816,46 @@
 		A0EF04F71D38DBC3005A88B5 /* Hospital */ = {
 			isa = PBXGroup;
 			children = (
-				A0EF04F81D38DBF5005A88B5 /* HospitalHomeViewController.h */,
-				A0EF04F91D38DBF5005A88B5 /* HospitalHomeViewController.m */,
+				A0EF05001D39E909005A88B5 /* Controller */,
+				A0EF04FF1D39E903005A88B5 /* View */,
+				A0EF04FE1D39E8FE005A88B5 /* Model */,
 			);
 			name = Hospital;
+			sourceTree = "<group>";
+		};
+		A0EF04FE1D39E8FE005A88B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A0EF04FF1D39E903005A88B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0D8F7E41D3B858700FDD3B1 /* medicineDetailTableViewCell.m */,
+				A0D8F7E51D3B858700FDD3B1 /* medicineDetailTableViewCell.h */,
+				A0EF05011D39E91C005A88B5 /* nurseBookTableViewCell.h */,
+				A0EF05021D39E91C005A88B5 /* nurseBookTableViewCell.m */,
+				A0D8F7EA1D3B962800FDD3B1 /* SZYDatePickView.h */,
+				A0D8F7EB1D3B962800FDD3B1 /* SZYDatePickView.m */,
+				A0D8F7F01D3BA62B00FDD3B1 /* UIView+Corner.h */,
+				A0D8F7F11D3BA62B00FDD3B1 /* UIView+Corner.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A0EF05001D39E909005A88B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A0EF05071D39E927005A88B5 /* orderViewController.h */,
+				A0EF05081D39E927005A88B5 /* orderViewController.m */,
+				A0EF05091D39E927005A88B5 /* bookContentViewController.h */,
+				A0EF050A1D39E927005A88B5 /* bookContentViewController.m */,
+				A0EF050D1D3A1365005A88B5 /* AppointmentViewController.h */,
+				A0EF050E1D3A1365005A88B5 /* AppointmentViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		D2942A90B6A3E70BCFA9FEF7 /* Pods */ = {
@@ -2046,6 +2100,7 @@
 				8EF6F38B1B12DE2D00ABAEF9 /* PostInfo.m in Sources */,
 				A0C1DDD01C3E04C400429E76 /* OrderDetailPhoneNum2TableViewCell.m in Sources */,
 				13D247141B0436E400717780 /* ChainToWebView.m in Sources */,
+				A0D8F7E61D3B858700FDD3B1 /* medicineDetailTableViewCell.m in Sources */,
 				8EF3F74F1AD54F1D00924975 /* PostReplyViewController.m in Sources */,
 				13B1C34F1AD4D6ED005C179C /* PostEditViewController.m in Sources */,
 				137D80E31B06FD25001E8CDA /* EditChainTableViewCell.m in Sources */,
@@ -2053,6 +2108,7 @@
 				8ED385B31B25740300E57F30 /* UIAlertView+Blocks.m in Sources */,
 				A0FC96E31C1E72730051C9A7 /* ShopIntroShopNameTableViewCell.m in Sources */,
 				13D247181B04383F00717780 /* ApplyTableViewCell.m in Sources */,
+				A0D8F7F21D3BA62B00FDD3B1 /* UIView+Corner.m in Sources */,
 				13B1C3521AD4D6ED005C179C /* PostImageTableViewCell.m in Sources */,
 				13878AE21AD624B300658F21 /* AlterNicknameViewController.m in Sources */,
 				13B1C3241AD4D6B3005C179C /* FSViewController.m in Sources */,
@@ -2084,10 +2140,12 @@
 				131A9ECB1B03846700926D6F /* ChainTableViewCell.m in Sources */,
 				A0C1DDD51C3E05FB00429E76 /* OrderDetailAddress2TableViewCell.m in Sources */,
 				A0C1DDCB1C3E01FF00429E76 /* OrderDetailName2TableViewCell.m in Sources */,
+				A0EF050F1D3A1365005A88B5 /* AppointmentViewController.m in Sources */,
 				A0CCA45D1B9E8F6100E6E396 /* OrderInfo.m in Sources */,
 				13ACD6D51BA8387C001F9F21 /* OrderL2DTableViewCell.m in Sources */,
 				13C74BA41B8B56A7007DD716 /* OrderDetailViewController.m in Sources */,
 				13B1C3501AD4D6ED005C179C /* PosterTableViewCell.m in Sources */,
+				A0EF05051D39E91C005A88B5 /* nurseBookTableViewCell.m in Sources */,
 				8EEC48871AD8BB11002E70DA /* replyInfoListItem.m in Sources */,
 				187A42AB1B1C07FD00DD8A50 /* PostText23TableViewCell.m in Sources */,
 				8EE9EE821AD653CD00377802 /* GCPlaceholderTextView.m in Sources */,
@@ -2132,6 +2190,7 @@
 				A02842D81B2745A1002EC4DB /* AddressGetter.m in Sources */,
 				13B1C37A1AD4D817005C179C /* regItem.m in Sources */,
 				13BC4DE91B3A9514009D181D /* CollectionViewCell4Dinner.m in Sources */,
+				A0D8F7EC1D3B962800FDD3B1 /* SZYDatePickView.m in Sources */,
 				A0D39DFA1AF76419007DEFA0 /* uncheckPostListItem.m in Sources */,
 				13BE56721ABA6F0E00379ACD /* UIViewController+Create.m in Sources */,
 				13BC4DF61B3A9530009D181D /* Detail4FoodViewController.m in Sources */,
@@ -2148,6 +2207,7 @@
 				13B1C2EE1ACB8994005C179C /* RegistViewController.m in Sources */,
 				13B1C2B61ACA58B5005C179C /* APIClient.m in Sources */,
 				13C58BE21AB9550600090157 /* AppDelegate.m in Sources */,
+				A0EF050C1D39E927005A88B5 /* bookContentViewController.m in Sources */,
 				13B1C3721AD4D80B005C179C /* loginItem.m in Sources */,
 				13B1C3741AD4D80B005C179C /* postItem.m in Sources */,
 				A0FC96ED1C1E79E20051C9A7 /* ShopIntroTelephoneTableViewCell.m in Sources */,
@@ -2157,7 +2217,6 @@
 				13B1C34D1AD4D6ED005C179C /* PostDetailViewController.m in Sources */,
 				A0FC96E81C1E747F0051C9A7 /* ShopIntroShopIntroTableViewCell.m in Sources */,
 				A0EA07DA1C0DCD9D00632CD0 /* DataSigner.m in Sources */,
-				A0EF04FA1D38DBF5005A88B5 /* HospitalHomeViewController.m in Sources */,
 				137D80DE1B06FC24001E8CDA /* EditApplyTableViewCell.m in Sources */,
 				13C34DC31B9EC0DB00A4B6A9 /* CommSales.m in Sources */,
 				8ED353121B0D87280017F2F6 /* MainTableViewHeaderCell.m in Sources */,
@@ -2202,6 +2261,7 @@
 				13ACD6E71BAC54B2001F9F21 /* MyInformationViewController.m in Sources */,
 				13BC4DFA1B3A9530009D181D /* ViewController4Food.m in Sources */,
 				13B1C2E21ACB7DC5005C179C /* AMPActivityIndicator.m in Sources */,
+				A0EF050B1D39E927005A88B5 /* orderViewController.m in Sources */,
 				A0C1DDC61C3D401D00429E76 /* FoodDetailCommPriceTableViewCell.m in Sources */,
 				13B1C3011ACBBED2005C179C /* SettingsViewController.m in Sources */,
 				13ACD6DF1BA99F81001F9F21 /* MoreCommPicTableViewCell.m in Sources */,
@@ -2340,7 +2400,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhong Jin (2SPA2FSXHP)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Zhong Jin (2SPA2FSXHP)";
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
@@ -2364,7 +2424,7 @@
 					"/Users/tjufe/Desktop/最新comm版本+支付宝/communityIOS2.0/openssl",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5b0f0a6f-ff8b-40a8-bda7-5ee0eeecc638";
+				PROVISIONING_PROFILE = "22e71ffb-689c-4fe5-a8f7-f84d4b9148d7";
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2377,7 +2437,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zhong Jin (2SPA2FSXHP)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Zhong Jin (2SPA2FSXHP)";
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = NO;
@@ -2401,7 +2461,7 @@
 					"/Users/tjufe/Desktop/最新comm版本+支付宝/communityIOS2.0/openssl",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5b0f0a6f-ff8b-40a8-bda7-5ee0eeecc638";
+				PROVISIONING_PROFILE = "22e71ffb-689c-4fe5-a8f7-f84d4b9148d7";
 				SKIP_INSTALL = NO;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

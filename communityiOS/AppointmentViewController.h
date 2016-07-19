@@ -1,13 +1,13 @@
 //
-//  HospitalHomeViewController.h
+//  AppointmentViewController.h
 //  communityiOS
 //
-//  Created by tjufe on 16/7/15.
+//  Created by tjufe on 16/7/16.
 //  Copyright © 2016年 &#20309;&#33538;&#39336;. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface HospitalHomeViewController : UIViewController
+@interface AppointmentViewController : UIViewController
 
 @end
